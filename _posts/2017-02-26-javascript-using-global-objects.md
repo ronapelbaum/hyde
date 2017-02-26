@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Global Warning
+desc: You are using global properties. You really should stop doing that...
 date: 2017-02-26
 author: ronapelbaum
 comments: true
