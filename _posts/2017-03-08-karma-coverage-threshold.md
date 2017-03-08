@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Keep it covered
-desc: use karma to enforce your code coverage
+title: Keep it Covered
+desc: How to use karma to measure & enforce your code coverage
 date: 2017-03-08
 author: ronapelbaum
 comments: true
@@ -15,27 +15,30 @@ So you've set up your [karma](https://karma-runner.github.io), and you have some
 <br/>
 How do you measure your tests *'effectiveness'*?
 
-## Code Coverage
-
-*Code Coverage* is how much of your code us covered by your tests.   
+> *Code Coverage* is how much of your code us covered by your tests.   
 
 ## karma-coverage
 
-Meet [karma coverage](https://github.com/karma-runner/karma-coverage).
+Meet [karma-coverage](https://github.com/karma-runner/karma-coverage).
 it's a plugin for karma, that helps you measure the *code coverage*.
 <br/>
 How does it work?
 It *instruments* your code before test run, and then it measures all the code that was executed during the test run.
+
 <br/>
 First, install it:
 
 ```
-npm install karma karma-coverage --save-dev
+npm install karma-coverage --save-dev
 ```
 
 Then, you need to update your `karma.conf.js` file with the following:
 
 ```javascript
+config.set({
+    
+    ...
+    
     preprocessors: {
           'src/**/*.js': ['coverage']
         },
@@ -47,6 +50,10 @@ Then, you need to update your `karma.conf.js` file with the following:
       type : 'html',
       dir : 'coverage/'
     }
+    
+    ...
+    
+})
 ```
 
 1. Add `'coverage'` to your `preprocessors` array - *instrumentation*.
@@ -73,12 +80,12 @@ coverageReporter: {
 This gives you a nice summary in your console:
 
 ```
-=============================== Coverage summary ===============================
+====================== Coverage summary =======================
 Statements   : 68.41% ( 13267/19394 )
 Branches     : 50.21% ( 4262/8488 )
 Functions    : 62.07% ( 2540/4092 )
 Lines        : 68.46% ( 13249/19352 )
-================================================================================
+================================================================
 ```
 
 ## Where you *want to be*
@@ -108,4 +115,4 @@ coverageReporter: {
 
 ## Summary
 
-Check out my [learn angular-jasmine](https://github.com/ronapelbaum/mangal) project, to see full settings.
+Check out my [learn jasmine project](https://github.com/ronapelbaum/mangal), to see full settings.
