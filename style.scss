@@ -30,10 +30,12 @@
     }
   }
   .social-icon {
-    filter: invert(100%);
+    font-size: 40px;
+
+    filter: invert(0%);
 
     &:hover {
-      filter: invert(30%);
+      filter: invert(60%);
     }
   }
 }
