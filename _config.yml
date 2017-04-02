@@ -6,7 +6,7 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            '#hands_on'
+title:            Hands On
 tagline:          ronapelbaum
 description:      "I blog about front end"
 
