@@ -85,9 +85,13 @@ We'de like to add a `FLEXIBILITY` factor, to reduce the roughness of the latest 
 ```javascript
 //define new thresholdConfig
 let thresholdConfig = {};
+//threshold factors
+let factors = ['lines', 'statements', 'branches', 'functions'];
 //extract data from coverageSummary to thresholdConfig
 //FLEXIBILITY is a number to have some flexibility 
-['lines', 'statements', 'branches', 'functions'].forEach(key => thresholdConfig[key] = coverageSummary.total[key].pct - FLEXIBILITY);
+factors.forEach(key => 
+    thresholdConfig[key] = coverageSummary.total[key].pct - FLEXIBILITY
+    );
 
 ```
 
