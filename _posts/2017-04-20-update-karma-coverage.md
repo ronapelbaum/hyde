@@ -98,7 +98,9 @@ factors.forEach(key =>
 Now, you can define you new threshold.
 ```javascript
 //overwrite the thresholdConfig to "coverage.conf.json"
-fs.writeFileSync('coverage.conf.json', JSON.stringify(thresholdConfig), 'utf8');
+fs.writeFileSync('coverage.conf.json', 
+    JSON.stringify(thresholdConfig), 
+    'utf8');
 ```
 
 ## CI/CD
