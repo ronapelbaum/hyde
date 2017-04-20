@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Update karma coverage threshold automatically
-description: How to continuously raise you coverage threshold 
+desc: How to continuously raise you coverage threshold 
 date: 2017-04-20
 author: ronapelbaum
 comments: true
