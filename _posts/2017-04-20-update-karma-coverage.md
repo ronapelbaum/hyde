@@ -36,7 +36,7 @@ You've been a very good boy, and your coverage is now better.
 <br/>
 You want to update you're coverage threshold to the new standard.
 
-## Manual Labor
+## Manual Labor?
 No.
 
 ## Threshold Outsourcing
@@ -60,8 +60,7 @@ Now, your *coverage.conf.json* will look like this:
 
 ## Json Coverage Report
 It turns out that you also have a [json reporter](https://github.com/gotwarlost/istanbul/blob/master/lib/report/json.js) and a [json-summary reporter](https://github.com/gotwarlost/istanbul/blob/master/lib/report/json-summary.js). Unfortunately, it still doesn't show up in [karma-coverage docs](https://github.com/karma-runner/karma-coverage#advanced-multiple-reporters) yet (I've opened a PR).
-
-<br/> 
+ 
 Try this:
 
 ```javascript
@@ -81,8 +80,8 @@ let coverageSummary = JSON.parse(fileContent);
 ```
 
 Then, extract the percentage results.
-<br/>
-We'de like to add a `FLEXIBILITY` factor, to reduce the roughness of the latest coverage results (I've set it to 0.5):
+
+We'de like to add a `FLEXIBILITY` factor, to reduce the roughness of the latest coverage results (I've set it to `0.5`):
 ```javascript
 //define new thresholdConfig
 let thresholdConfig = {};
