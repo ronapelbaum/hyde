@@ -81,16 +81,16 @@ let coverageSummary = JSON.parse(fileContent);
 
 Then, extract the percentage results.
 
-We'de like to add a `FLEXIBILITY` factor, to reduce the roughness of the latest coverage results (I've set it to `0.5`):
+We'de like to add a `FLEX` factor, to reduce the roughness of the latest coverage results (I've set it to `0.5`):
 ```javascript
 //define new thresholdConfig
 let thresholdConfig = {};
 //threshold factors
 let factors = ['lines', 'statements', 'branches', 'functions'];
 //extract data from coverageSummary to thresholdConfig
-//FLEXIBILITY is a number to have some flexibility 
+//FLEX is a number to have some flexibility 
 factors.forEach(key => 
-    thresholdConfig[key] = coverageSummary.total[key].pct - FLEXIBILITY
+    thresholdConfig[key] = coverageSummary.total[key].pct - FLEX
     );
 
 ```
