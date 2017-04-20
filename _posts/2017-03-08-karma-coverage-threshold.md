@@ -92,8 +92,7 @@ Lines        : 68.46% ( 13249/19352 )
 
 Now, le'ts say that your code coverage is 67%.
 <br/>
-What you really want is to keep it that way.
-you want to *fail* test run if the code coverage get's below your threshold.
+What you really want is to keep it that way. You want to *fail* test run if the code coverage get's below your threshold.
 <br/>
 Why?
 1. Someone might have added new code without proper testing - *bad*
