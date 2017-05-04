@@ -69,6 +69,7 @@ This is the motivation part...
 Long time ago (about 2 yrs) I was very excited about TypeScript. after suffering a *lot* of painful bad-written javascript, I thought that here was our redemption.
 
 But then ESLint came forward, offering good linting to ES6 as well. So now, when you have very good rules for ESLint, although it's not a *real* compiler, it's doing a pretty good job.
+
 Add [node support for ES6](https://nodejs.org/en/docs/es6/) to the equation, and understand why I stopped praising TypeScript... 
 
 ## `.editorconfig`?
