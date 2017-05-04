@@ -53,7 +53,7 @@ Add basic scripts:
 
 ### Too painful? 
 
-You can temporary and explicitly *ignore* linting errors for certain lines, or files by adding
+You can temporary and explicitly *disable* linting for certain lines, or files by adding
 ```javascript
 /* eslint-disable */
 ```
