@@ -20,7 +20,7 @@ eslint --init
 ```
 IMO it's better to use recommended style guide, [airbnb](https://github.com/airbnb/javascript) being a very popular one.
 
-![eslint-init]({{ site.url }}/_assets/eslint-init.png)
+![eslint-init]({{ site.url }}/assets/eslint-init.png)
 
 BTW, if you're still using ES5, just use [airbnb-legacy](https://www.npmjs.com/package/eslint-config-airbnb-base#eslint-config-airbnb-baselegacy).
 
