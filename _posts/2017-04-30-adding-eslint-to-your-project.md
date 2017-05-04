@@ -3,6 +3,7 @@ layout: post
 title: Lint you code
 date: 2017-04-30
 author: ronapelbaum
+desc: Welcome to modern javascript
 comments: true
 publish: true
 tags: [eslint, javascript]
