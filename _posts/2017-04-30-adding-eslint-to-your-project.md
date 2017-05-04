@@ -4,7 +4,7 @@ title: Lint you code
 date: 2017-04-30
 author: ronapelbaum
 comments: true
-publish: false
+publish: true
 tags: [eslint, javascript]
 ---
 ## Welcome to modern javascript
