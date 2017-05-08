@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lint you code
+title: Lint your code
 date: 2017-04-30
 author: ronapelbaum
 desc: Welcome to modern javascript
