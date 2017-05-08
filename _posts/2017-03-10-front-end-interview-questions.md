@@ -3,6 +3,7 @@ layout: post
 title: Front End Interview
 date: 2017-03-10
 author: ronapelbaum
+desc: Interview Questions - intermediate Front End Developer
 comments: true
 publish: true
 tags: [javascript]
