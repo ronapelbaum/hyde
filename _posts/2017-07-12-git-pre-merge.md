@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git: prepare for Merge
+title: Git - prepare for Merge
 desc: My first Git post! 
 date: 2017-07-12
 author: ronapelbaum
