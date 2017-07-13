@@ -46,7 +46,7 @@ For that you'll need:
 2. Place it in PATH
 3. `chmod +x`
 
-#### git-premerge
+#### 1. git-premerge
 
 Let's create a bash file named `git-premerge`:
 ```bash
@@ -65,12 +65,15 @@ git checkout $current_branch
 ```
 The `git-` prefix in filename is important.
 
-#### Place in path
+#### 2. Place in path
 
 Place the file in a directory that is already in your `PATH`. 
 I put it in `/usr/local/bin` on my Mac.
 
-#### `chmod +x`
+An alternate option will be to place it in a dedicated folder (i.e. `~/my-git`), and add this folder to bash path.
+To so, add `PATH=$PATH:~/my-git` to `~/.bashrc` file.
+
+#### 3. `chmod +x`
 
 To enable execution of that file.
 
