@@ -15,7 +15,7 @@ And, I enjoy working with branches and pull requests.
 
 But every now and then I encounter this:
 
-![pr-merge-conflict]({{ site.url }}/assets/pr-merge-conflict.png)
+![pr-merge-conflict]({{ site.url }}/assets/pr-merge-conflict.png){:style="border: 2px solid grey"}
 
 When this happens, you need to merge master into your branch.
 
