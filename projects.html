@@ -6,10 +6,12 @@ permalink: projects
 
 <div class="page">
 
-  {% for project in site.author.projects %}
- <div>
-   <h2>{{ project.title }}</h2>
-   <p>this is the <a href="{{ project.link }}">{{ project.title }}</a> project</p>
- </div>
-  {% endfor %}
+    {% for project in site.author.projects %}
+    <div>
+        <h2>{{ project.title }}</h2>
+        <p>this is the <a href="{{ project.url }}">{{ project.title }}</a> project</p>
+        <a href="https://www.npmjs.com/package/{{ project.title }}">npm</a>
+        <a href="https://github.com/{{ site.github.repo }}/{{ project.title }}">npm</a>
+    </div>
+    {% endfor %}
 </div>
