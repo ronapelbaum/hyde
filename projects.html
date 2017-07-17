@@ -9,9 +9,9 @@ permalink: projects
     {% for project in site.author.projects %}
     <div>
         <h2>{{ project.title }}</h2>
-        <p>this is the <a href="{{ project.url }}">{{ project.title }}</a> project</p>
+        <p>{{ project.description }}</p>
         <a href="https://www.npmjs.com/package/{{ project.title }}">npm</a>
-        <a href="https://github.com/{{ site.github.repo }}/{{ project.title }}">npm</a>
+        <a href="{{ site.github.repo }}/{{ project.title }}"><i class="social-icon fa fa-github" aria-hidden="true"></i></a>
     </div>
     {% endfor %}
 </div>
