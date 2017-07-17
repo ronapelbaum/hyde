@@ -2,12 +2,11 @@
 layout: page
 title: "Projects"
 permalink: projects
-projects: [{title: a, link: www.google.com}]
 ---
 
 <div class="page">
 
-  {% for project in page.projects %}
+  {% for project in author.projects %}
  <div>
    <h2>{{ project.title }}</h2>
    <p>this is the <a href="{{ project.link }}">{{ project.title }}</a> project</p>
