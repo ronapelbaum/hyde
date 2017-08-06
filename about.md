@@ -48,7 +48,7 @@ skills:
     level: 5
 ---
 
-## Who am I?
+## <i class="cv fa fa-user"></i>Who am I?
 Hi! I’m Ron.
 
 I’m an experienced software engineer living in Jerusalem, Israel.
@@ -60,3 +60,4 @@ I also enjoy good old music and good old scotch.
 Follow me!
 
 {% include experience.html %}
+{% include skills.html %}
