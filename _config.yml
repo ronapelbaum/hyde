@@ -1,9 +1,9 @@
 # Site settings
 url:              https://ronapelbaum.github.io
-baseurl:          /go
+baseurl:
 title:            Hands On
 tagline:          ronapelbaum
-description:      "I blog about front end 2"
+description:      "I blog about front end"
 
 # Permalinks
 permalink:        pretty
