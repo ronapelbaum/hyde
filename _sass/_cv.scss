@@ -65,19 +65,19 @@ $theme-color: #6E6E6E;
   .skillset {
     .level-title {
       display: inline-block;
-      float: left;
-      width: 30%;
+      //float: left;
+      width: 28%;
       margin-bottom: 0;
     }
   }
 
   .skillset {
     .level-bar {
-      background: darken($theme-color, 95%);
+      background: lighten($theme-color, 30%);
       height: 12px;
       display: inline-block;
       width: 70%;
-      float: left;
+      //float: left;
       position: relative;
       top: 1px;
 
