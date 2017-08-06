@@ -11,7 +11,7 @@ tagline:          ronapelbaum
 description:      "I blog about front end"
 
 url:              https://ronapelbaum.github.io
-baseurl:          /
+baseurl:          '/'
 
 author:
   id:             ronapelbaum
