@@ -51,6 +51,11 @@ skills:
     level: 6
   - title: java
     level: 5
+education:
+  - title: B.Sc. in Computational Biology
+    school: BIU, Israel
+    start: 2007
+    end: 2010
 ---
 
 Hi! I’m Ron.
