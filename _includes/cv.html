@@ -1,0 +1,54 @@
+<!--http://webjeda.com/online-cv/-->
+<section class="cv">
+    {% if page.summary %}
+
+    <section class="section skills-section">
+        <h2 class="section-title"><i class="fa fa-user"></i>{{ page.summary.title }}</h2>
+        {% for p in page.summary.p %}
+        <p>{{ p }}</p>
+        {% endfor %}
+    </section>
+    {% endif %}
+
+    {% if page.experience %}
+    <section class="section experiences-section">
+        <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+        {% for item in page.experience %}
+        <div class="item">
+            <div class="meta">
+                <div class="upper-row">
+                    <h3 class="job-title">{{ item.title }}</h3>
+                    <span class="time">({{ item.start }} - {{ item.end }})</span>
+                </div>
+                <!--//upper-row-->
+                <div class="company">{{ item.company }}</div>
+            </div>
+            <!--//meta-->
+            <div class="details">
+                {% for desc in item.description %}
+                <p>{{ desc }}</p>
+                {% endfor %}
+            </div>
+            <!--//details-->
+        </div>
+        {% endfor %}
+    </section>
+    {% endif %}
+
+    {% if page.skills %}
+    <section class="section skills-section">
+        <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+        <div class="skillset">
+            {% for item in page.skills %}
+            <div class="item"><h3 class="level-title">{{ item.title }}</h3>
+                <div class="level-bar">
+                    <div class="level-bar-inner" data-level="{{ item.level | times: 10 }}%"
+                         style="width: {{ item.level | times: 10 }}%;"></div>
+                </div><!--//level-bar-->
+            </div><!--//item-->
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+
+</section>

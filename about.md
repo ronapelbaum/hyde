@@ -1,7 +1,12 @@
 ---
-layout: about
+layout: page
 title: About Me
 permalink: /about/
+summary:
+  title: Who am I?
+  p:
+    - I’m an experienced software engineer living in Jerusalem, Israel.
+    - I am a full stack web developer, code oriented,  thrilled about javascript, angularjs and other cool front-end techs, great team player and tech leader.
 experience:
   - title: Front End Developer
     company: Aol, Israel
@@ -48,20 +53,6 @@ skills:
     level: 5
 ---
 
-<section class="section skills-section">
-    <h2 class="section-title"><i class="fa fa-user"></i>Who am I?</h2>
-
 Hi! I’m Ron.
 
-I’m an experienced software engineer living in Jerusalem, Israel.
-
-I am a full stack web developer, code oriented,  thrilled about javascript, angularjs and other cool front-end techs, great team player and tech leader.
-
-I also enjoy good old music and good old scotch.
-
-Follow me!
-
-</section>
-
-{% include experience.html %}
-{% include skills.html %}
+{% include cv.html %}
