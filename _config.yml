@@ -1,6 +1,6 @@
 # Site settings
 url:              https://ronapelbaum.github.io
-baseurl:          /
+baseurl:          /go
 title:            Hands On
 tagline:          ronapelbaum
 description:      "I blog about front end"
