@@ -3,8 +3,9 @@
     {% for item in page.experience %}
     <div class="item">
         <div class="meta">
-            <div class="upper-row"><h3 class="job-title">{{ item.title }}</h3>
-                <div class="time">{{ item.start }} - {{ item.end }}</div>
+            <div class="upper-row">
+                <h3 class="job-title">{{ item.title }}</h3>
+                <span class="time">({{ item.start }} - {{ item.end }})</span>
             </div>
             <!--//upper-row-->
             <div class="company">{{ item.company }}</div>
