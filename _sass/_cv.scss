@@ -1,3 +1,6 @@
+$theme-color: #6E6E6E;
+//@text-color: #3F4650;
+//@text-color-secondary: #545E6C;
 .cv {
   background-color: #9a9a9a;
   padding: 60px;
@@ -6,7 +9,7 @@
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: darken(@theme-color, 15%);
+    color: darken($theme-color, 15%);
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
@@ -17,7 +20,7 @@
       display: inline-block;
       color: #fff;
       .border-radius(50%);
-      background: darken(@theme-color, 15%);
+      background: darken($theme-color, 15%);
       text-align: center;
       padding-top: 8px;
       font-size: 16px;
@@ -41,7 +44,7 @@
     margin-bottom: 2px;
   }
   .job-title {
-    color: @text-color;
+    //color: @text-color;
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
@@ -51,11 +54,11 @@
     position: absolute;
     right: 0;
     top: 0;
-    color: @text-grey;
+    //color: @text-grey;
   }
   .company {
     margin-bottom: 10px;
-    color: @text-grey;
+    //color: @text-grey;
   }
 
   .project-title {
