@@ -48,7 +48,9 @@ skills:
     level: 5
 ---
 
-## <i class="fa fa-user"></i>Who am I?
+<section class="section skills-section">
+    <h2 class="section-title"><i class="fa fa-user"></i>Who am I?</h2>
+
 Hi! I’m Ron.
 
 I’m an experienced software engineer living in Jerusalem, Israel.
@@ -58,6 +60,8 @@ I am a full stack web developer, code oriented,  thrilled about javascript, angu
 I also enjoy good old music and good old scotch.
 
 Follow me!
+
+</section>
 
 {% include experience.html %}
 {% include skills.html %}
