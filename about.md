@@ -32,6 +32,20 @@ experience:
 skills:
   - title: javascript
     level: 10
+  - title: nodejs
+    level: 8
+  - title: html
+    level: 7
+  - title: git
+    level: 7
+  - title: angularjs
+    level: 9
+  - title: jasmine/karma
+    level: 10
+  - title: css
+    level: 6
+  - title: java
+    level: 5
 ---
 
 ## Who am I?
