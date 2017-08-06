@@ -15,5 +15,4 @@ I also enjoy good old music and good old scotch.
 
 Follow me!
 
-<i class="fa fa-briefcase"></i>
-## EXPERIENCES 
+## <i class="fa fa-briefcase"></i> EXPERIENCES 
