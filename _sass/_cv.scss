@@ -1,8 +1,75 @@
 .cv {
   background-color: #9a9a9a;
+  padding: 60px;
+  padding-right: 300px;
   .section-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: darken(@theme-color, 15%);
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;
     .fa {
+      width: 30px;
+      height: 30px;
       margin-right: 8px;
+      display: inline-block;
+      color: #fff;
+      .border-radius(50%);
+      background: darken(@theme-color, 15%);
+      text-align: center;
+      padding-top: 8px;
+      font-size: 16px;
+      position: relative;
+      top: -2px;
+    }
+
+  }
+  .section {
+    margin-bottom: 60px;
+  }
+
+  .experiences-section {
+    .item {
+      margin-bottom: 30px;
+    }
+  }
+  .upper-row {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2px;
+  }
+  .job-title {
+    color: @text-color;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+  .time {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: @text-grey;
+  }
+  .company {
+    margin-bottom: 10px;
+    color: @text-grey;
+  }
+
+  .project-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .projects-section {
+    .intro {
+      margin-bottom: 30px;
+    }
+    .item {
+      margin-bottom: 15px;
     }
   }
 }
