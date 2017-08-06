@@ -2,6 +2,14 @@
 layout: page
 title: About Me
 permalink: /about/
+experience:
+  - title: Front End Developer
+    company: Aol
+    start: 2017
+    end: Present
+    description:
+      - I'm a part of the player team.
+      - In charge of implementing and improving dev flows.
 ---
 
 ## Who am I?
@@ -14,3 +22,5 @@ I am a full stack web developer, code oriented,  thrilled about javascript, angu
 I also enjoy good old music and good old scotch.
 
 Follow me!
+
+{% include cv.html %}
