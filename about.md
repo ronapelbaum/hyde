@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: About Me
 permalink: /about/
 experience:
@@ -48,7 +48,7 @@ skills:
     level: 5
 ---
 
-## <i class="cv fa fa-user"></i>Who am I?
+## <i class="fa fa-user"></i>Who am I?
 Hi! I’m Ron.
 
 I’m an experienced software engineer living in Jerusalem, Israel.
