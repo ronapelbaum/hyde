@@ -8,8 +8,8 @@ experience:
     start: 2017
     end: Present
     description:
-      - I'm a part of the player team.
-      - In charge of implementing and improving dev flows.
+      - Working on Aol’s HTML5 Player.
+      - Code Quality guru, improving project’s infrastructure and dev-ops processes.
 ---
 
 ## Who am I?
