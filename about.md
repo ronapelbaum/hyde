@@ -29,7 +29,9 @@ experience:
     end: 2013
     description:
       - Working on the BSM Project, member of the Front-End team.
-  
+skills:
+  - title: javascript
+    level: 10
 ---
 
 ## Who am I?
