@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: Hi! I’m Ron.
 permalink: /about/
 summary:
   title: Who am I?
@@ -67,8 +67,10 @@ projects:
   - title: karma-coverage-incremental
     url: https://www.npmjs.com/package/karma-coverage-incremental
     description: "a karma-coverage plugin for incremental coverage"
+interests:
+  - Music
+  - Whiskey
+  - Cooking
 ---
-
-Hi! I’m Ron.
 
 {% include cv.html %}

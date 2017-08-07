@@ -62,6 +62,17 @@
     </section>
     {% endif %}
 
+    {% if page.interests %}
+    <section class="section interests-section">
+        <h2 class="section-title"><i class="fa fa-gamepad"></i>Interests</h2>
+        {% for item in page.interests %}
+        <div class="item">
+            <h4 class="project-title">{{ item }}</h4>
+        </div><!--//item-->
+        {% endfor %}
+    </section>
+    {% endif %}
+
     {% if page.education %}
     <section class="section education-section">
         <h2 class="section-title"><i class="fa fa-graduation-cap"></i>Education</h2>
