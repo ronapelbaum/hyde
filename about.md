@@ -56,6 +56,10 @@ education:
     school: BIU, Israel
     start: 2007
     end: 2010
+  - title: Jewish Studies
+    school: Yeshivat HaKotel, Jerusalem
+    start: 2003
+    end: 2007
 ---
 
 Hi! I’m Ron.
