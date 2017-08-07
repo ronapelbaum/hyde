@@ -68,13 +68,14 @@ $theme-color: #6E6E6E;
       //float: left;
       width: 28%;
       margin-bottom: 0;
+      margin-top: 0.5em;
     }
   }
 
   .skillset {
     .level-bar {
       background: lighten($theme-color, 30%);
-      height: 12px;
+      height: 0.4em;
       display: inline-block;
       width: 70%;
       //float: left;
@@ -83,7 +84,7 @@ $theme-color: #6E6E6E;
 
       .level-bar-inner{
         background: darken($theme-color, 15%);
-        height: 12px;
+        height: 0.4em;
       }
     }
   }

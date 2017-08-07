@@ -40,7 +40,7 @@
         <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
         <div class="skillset">
             {% for item in page.skills %}
-            <div class="item"><h3 class="level-title">{{ item.title }}</h3>
+            <div class="item"><h4 class="level-title">{{ item.title }}</h4>
                 <div class="level-bar">
                     <div class="level-bar-inner" data-level="{{ item.level | times: 10 }}%"
                          style="width: {{ item.level | times: 10 }}%;"></div>
