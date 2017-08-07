@@ -60,6 +60,13 @@ education:
     school: Yeshivat HaKotel, Jerusalem
     start: 2003
     end: 2007
+projects:
+  - title: eslint-plugin-arguments
+    url: https://www.npmjs.com/package/eslint-plugin-arguments
+    description: "eslint plugin to disallow calling method with inline literals as arguments Edit"
+  - title: karma-coverage-incremental
+    url: https://www.npmjs.com/package/karma-coverage-incremental
+    description: "a karma-coverage plugin for incremental coverage"
 ---
 
 Hi! I’m Ron.
