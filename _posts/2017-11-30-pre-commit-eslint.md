@@ -35,7 +35,7 @@ git ls-files --modified | grep .js$
 Now, in `package.json`:
 ```json
 "scripts": {
-  "precommit": "eslint `git ls-files --modified | grep .js$` --fix"
+  "precommit": "eslint `git diff --name-only --staged | grep .js$` --fix"
 }
 ```
 
