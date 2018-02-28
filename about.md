@@ -38,11 +38,11 @@ skills:
   - title: javascript
     level: 10
   - title: nodejs
-    level: 8
+    level: 9
   - title: html
-    level: 7
+    level: 8
   - title: git
-    level: 7
+    level: 9
   - title: angularjs
     level: 9
   - title: jasmine/karma
