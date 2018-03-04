@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unleash the true pwoer of NPM
+title: Unleash the true power of NPM
 desc: How to manage your project with npm
 date: 2018-01-03
 author: ronapelbaum
@@ -78,14 +78,14 @@ ron$ npm test
 > my-module@1.2.3 test /projects/my-module
 > karma start karma.conf.js
 
-PhantomJS 2.1.1 (Mac OS X 0.0.0): Executed 100 of 100 SUCCESS (0 secs / 0 secs)
+PhantomJS 2.1.1: Executed 100 of 100 SUCCESS (0 secs / 0 secs)
 
-=============================== Coverage summary ===============================
+========================= Coverage summary =========================
 Statements   : 100% ( 100/100 )
 Branches     : 100% ( 80/80 )
 Functions    : 100% ( 90/90 )
 Lines        : 100% ( 1234/1234 )
-================================================================================
+====================================================================
 ron$
 ```
 
