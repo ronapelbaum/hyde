@@ -69,7 +69,7 @@ projects:
     description: "a karma-coverage plugin for incremental coverage"
 interests:
   - Music
-  - Whiskey
+  - Whisky
   - Cooking
 ---
 
